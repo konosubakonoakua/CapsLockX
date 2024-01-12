@@ -44,6 +44,7 @@ CapsLockX_ConfigWindow(){
     Gui, Add, Button, w80, 打开官方文档
     Gui, Add, Button, w80, 添加开机自动启动
     Gui, Add, Button, w80, 配置文件编辑
+    Gui, Add, Button, w80, 重新載入
 
     global T_TomatoLife
     if (T_TomatoLife) {
@@ -89,6 +90,10 @@ Button打开BUG反馈与建议页面:
 return
 Button打开官方文档:
     Run https://capslockx.snomiao.com/
+return
+Button重新載入:
+    Func("CapsLockX_Reload").Call()
+    Reload
 return
 CapsLockX_ConfigureUpdate:
     global T_TomatoLife

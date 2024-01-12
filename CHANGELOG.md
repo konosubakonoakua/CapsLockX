@@ -2,6 +2,71 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.33.2](https://github.com/snolab/CapsLockX/compare/v1.33.1...v1.33.2) (2024-01-06)
+
+
+### Bug Fixes
+
+* **workflows:** v4 checkout ([57ca621](https://github.com/snolab/CapsLockX/commit/57ca6211eace4731c469d5bd5a249c22f342e1f6))
+
+### [1.33.1](https://github.com/snolab/CapsLockX/compare/v1.33.0...v1.33.1) (2024-01-06)
+
+
+### Bug Fixes
+
+* **capslockx:** remove keysender ([0988dfe](https://github.com/snolab/CapsLockX/commit/0988dfe679361fe83ec31fba752fbff1c368d073))
+
+## [1.33.0](https://github.com/snolab/CapsLockX/compare/v1.32.5...v1.33.0) (2024-01-06)
+
+
+### Features
+
+* **Modules:** Brainstorm ([b5320bf](https://github.com/snolab/CapsLockX/commit/b5320bfd7fed5e12e25e5d59962e953ed3b54f61))
+
+
+### Bug Fixes
+
+* **capslockx:** pnpm publish ([6631cc9](https://github.com/snolab/CapsLockX/commit/6631cc9019e7633fe6ede8fde292cfcdf1bf88a1))
+
+### [1.32.5](https://github.com/snolab/CapsLockX/compare/v1.32.4...v1.32.5) (2024-01-04)
+
+
+### Bug Fixes
+
+* anki control update ([6e67e85](https://github.com/snolab/CapsLockX/commit/6e67e852ca52009e09b96cb3e8f01d58a47e70f3))
+* **capslockx:** brainstorm ([eb3cf50](https://github.com/snolab/CapsLockX/commit/eb3cf50c341f1e66a9a4504a372bd7e2f58864d1))
+* **capslockx:** readme ([5ae1b1c](https://github.com/snolab/CapsLockX/commit/5ae1b1cb30b53fd03e05b2f0d2ad6eb63e4ceee9))
+* **Core:** reduce file changes ([e9d6140](https://github.com/snolab/CapsLockX/commit/e9d6140b1f65ea56eaa3775664def85059bf9cdb))
+* **docs:** contri ([76ff39b](https://github.com/snolab/CapsLockX/commit/76ff39b01ec1c47f871a4ea813928e5f0301090e))
+* **docs:** donate update ([c1d1e49](https://github.com/snolab/CapsLockX/commit/c1d1e49a9e98ecf855fbc7b515366eb1a3c9d590))
+* **Modules:** brainstorm ([3153210](https://github.com/snolab/CapsLockX/commit/31532108172b1b37bc67feddbaec1d86b56fbe19))
+* remove chat.ts ([32bbed4](https://github.com/snolab/CapsLockX/commit/32bbed46186fc598e931fbe01a67d4c9a9f03ef4))
+* settings reload ([1e2c347](https://github.com/snolab/CapsLockX/commit/1e2c347babd8f69f6fab8f53737af56804bfda8e))
+* Update CLX-WindowManager hotkeys and comments ([631c0f5](https://github.com/snolab/CapsLockX/commit/631c0f55e72a698494e52802bd3244fac07d37b8))
+
+### [1.32.4](https://github.com/snolab/CapsLockX/compare/v1.32.3...v1.32.4) (2023-11-26)
+
+
+### Bug Fixes
+
+* **Modules:** ifly update ([3b37021](https://github.com/snolab/CapsLockX/commit/3b370218a8b5c295d441797d671bada933e3c52b))
+
+### [1.32.3](https://github.com/snolab/CapsLockX/compare/v1.32.2...v1.32.3) (2023-11-23)
+
+
+### Bug Fixes
+
+* **capslockx:** chat upgrae ([484dc9f](https://github.com/snolab/CapsLockX/commit/484dc9f5f1fd23294a109fe8cc13d7d0c3e71bec))
+* **capslockx:** dep ([13db936](https://github.com/snolab/CapsLockX/commit/13db93656680a9a135c420eed2dd03b34244b006))
+* **capslockx:** scroll horizonal ([560481b](https://github.com/snolab/CapsLockX/commit/560481bfad26cb1e12880b2cf39e92a475a84004))
+* **DevTools:** chat api ([e4310d0](https://github.com/snolab/CapsLockX/commit/e4310d08ea63ca1af50a7f5f2e70f3f92b45ce9f))
+* **DevTools:** chat base ([ec83723](https://github.com/snolab/CapsLockX/commit/ec83723a73e53bf8f192a2ff80e9a4ad8a876c4c))
+* **DevTools:** update openai ([8819b8f](https://github.com/snolab/CapsLockX/commit/8819b8f09782b37f1c0a703dc51dd8429dc2c59c))
+* **docs:** en ([26cc65e](https://github.com/snolab/CapsLockX/commit/26cc65eb9b77685e80e294f13caaa8614a9a8a72))
+* **Modules:** en ([37b4711](https://github.com/snolab/CapsLockX/commit/37b4711f7de47291bb6334b2c7988f9362da364e))
+* **Modules:** en ([30e4101](https://github.com/snolab/CapsLockX/commit/30e410130428e06a6996a5eb14ddd04aa8c849a7))
+* **workflows:** choco install ([266cabc](https://github.com/snolab/CapsLockX/commit/266cabc67214e021660860b3dbf11b881a5031b5))
+
 ### [1.32.2](https://github.com/snolab/CapsLockX/compare/v1.32.1...v1.32.2) (2023-08-26)
 
 

@@ -245,14 +245,14 @@ Anki 操作增强
 | -------------------- | :------------: | ----------------------------------------------------------- |
 | 在 Anki-学习界面     | `w 或 k 或 ↑`  | 按下=撤销，松开显示答案                                     |
 | 在 Anki-学习界面     | `a 或 h 或 ←`  | 按下=顺利，松开显示答案                                     |
-| 在 Anki-学习界面     | `s 或 j 或 ↓`  | 按下=困难，松开显示答案                                     |
+| 在 Anki-学习界面     | `s 或 j 或 ↓`  | 按下=一般，松开显示答案                                     |
 | 在 Anki-学习界面     | `d 或 l 或 →`  | 按下=生疏，松开显示答案                                     |
 | 在 Anki-学习界面     |      `q`       | 返回上个界面                                                |
 | 在 Anki-学习界面     |      `c`       | 添加新卡片                                                  |
-| 在 Anki-学习界面     | `1 或 NumPad1` | 困难（原键位不动）                                          |
-| 在 Anki-学习界面     | `2 或 NumPad2` | 生疏（原键位不动）                                          |
-| 在 Anki-学习界面     | `3 或 NumPad3` | 一般（原键位不动）                                          |
-| 在 Anki-学习界面     | `4 或 NumPad4` | 顺利（原键位不动）                                          |
+| 在 Anki-学习界面     | `1 或 NumPad1` | 困难（原键位）                                              |
+| 在 Anki-学习界面     | `2 或 NumPad2` | 生疏（原键位）                                              |
+| 在 Anki-学习界面     | `3 或 NumPad3` | 一般（原键位）                                              |
+| 在 Anki-学习界面     | `4 或 NumPad4` | 顺利（原键位）                                              |
 | 在 Anki-学习界面     | `5 或 NumPad5` | 撤销                                                        |
 | 在 Anki-学习界面     | `6 或 NumPad6` | 暂停卡片                                                    |
 | 在 Anki-学习界面     |   `Alt + i`    | 快速导入剪贴版的内容（按 Tab 分割） / 比如可以从 Excel 复制 |
@@ -345,6 +345,32 @@ Anki 操作增强
 #### 效果如下图
 
 ![App-讯飞语音输入法悬浮窗演示.gif](./media/App-讯飞语音输入法悬浮窗演示.gif)
+
+<!-- 模块文件名：CLX-Brainstorm.ahk-->
+
+### CLX - Brainstorm 大脳风暴
+
+任何時間，任何輸入框，按下 `CLX+b` 鍵，開始使用 AI 輔助輸入。
+
+#### 按键分布（开发中）
+
+| 按键描述        | 作用                                                 | 备注 |
+| --------------- | ---------------------------------------------------- | ---- |
+| CLX + b         | 自動複製当前选中内容，輸入指令，让 AI 辅助你的輸入   |      |
+| CLX + Alt + b   | 配置激活碼（目前只有免費方案，将来可能加入功能増強） |      |
+| CLX + Shift + b | 査看使用額度                                         |      |
+
+#### Protips:
+
+##### 随時整理会議記録
+
+1. 任何輸入框内，使用 Win+H 來調出語音輸入，然後說出你想要的文字，不用在意語音輸入的準確度，只要說出大概的意思就可以了，
+2. 然後全選按下 `CLX+b`，輸入 `列出要点和待辦事項`，就可以看到 AI 自動幫你整理出來的要點和待辦事項。
+
+##### 随時翻訳任何語言到任何語言
+
+1. 任何輸入框内，选中你想要翻譯的文字
+2. 然後全選按下 `CLX+b`，`to chinese:` AI 自動幫你輸入成中文。
 
 <!-- 模块文件名：CLX-Edit.ahk-->
 
@@ -480,7 +506,8 @@ Anki 操作增强
 | Alt+Tab 界面 | `W A S D`                             | 上下左右切换窗口选择                       |
 | Alt+Tab 界面 | `X C`                                 | 关闭选择的窗口（目前 X 和 C 没有区别）     |
 | Win+Tab 视图 | `Alt + W A S D`                       | 切换窗口选择                               |
-| 全局         | `Win + [Shift] + B`                   | 定位到托盘或任务栏任务                     |
+| 全局         | `Win + [Shift] + B`                   | 定位到托盘任务(windows 系統自帯熱鍵)       |
+| 全局         | `Win + [Shift] + T`                   | 定位到任務栏任务(windows 系統自帯熱鍵)     |
 | 全局         | `Win + Shift + hjkl`                  | 在窗口之间按方向切换焦点                   |
 | 任务栏       | `Ctrl + W 或 Delete`                  | 在托盘图标或任务栏任务上，选择退出按钮     |
 | 全局         | `CapsLockX + 1 2 ... 9 0`             | 切换到第 1 .. 12 个桌面                    |
@@ -567,13 +594,13 @@ Anki 操作增强
 CapsLockX 的核心理念是：简化系统操作逻辑，提升操作效率，且不与原有习惯键位冲突。
 
 1. [x] 按 CapsLockX + - 键显示对应帮助（目前的显示样式相当草率）
-2. [ ] i18n （eh这个真得有）
-2. [ ] 自动更新（虽然 git pull 一下也不是不行）
-3. [ ] 初次使用上手教程（这个现在有点简陋……）
-4. [ ] 插件管理器（虽然文件系统也可以搞定）
-5. [ ] 自动配置同步功能（虽然一般来说扔 onedrive 就够）
-6. [ ] 易用的选项配置的 UI 界面（虽然改 ini 也不是什么难事）
-7. [ ] 执行外部代码（Python、Nodejs、外部 AHK、Bash、……）（虽然写个脚本 run 一下也并不算麻烦）
+2. [ ] i18n （eh 这个真得有）
+3. [ ] 自动更新（虽然 git pull 一下也不是不行）
+4. [ ] 初次使用上手教程（这个现在有点简陋……）
+5. [ ] 插件管理器（虽然文件系统也可以搞定）
+6. [ ] 自动配置同步功能（虽然一般来说扔 onedrive 就够）
+7. [ ] 易用的选项配置的 UI 界面（虽然改 ini 也不是什么难事）
+8. [ ] 执行外部代码（Python、Nodejs、外部 AHK、Bash、……）（虽然写个脚本 run 一下也并不算麻烦）
 
 如果你有任何想法或建议，请在这里提出：
 [Issues · snomiao/CapslockX](https://github.com/snolab/CapsLockX/issues)
@@ -660,7 +687,7 @@ CapsLockX 相关答疑直接进群 [@雪星](tencent://message?uin=997596439) �
 
 ### 隐私与安全性 🔒 Privacy
 
-考虑到任何能够获取到管理员权限的软件对于用户的操作系统都是相当危险的，故 CapsLockX 必须采用开源的方式以使社区可以自由且随意地检查 CapsLockX 中可能涉及到的任何部分的代码，以保证所有用户的操作系统安全性不因本软件而受损害。
+考虑到任何能够获取到管理员权限的软件对于用户的操作系统都是相当危险的，故 CapsLockX 必须而且正在采用开源的方式以使社区可以自由且随意地检查 CapsLockX 中可能涉及到的任何部分的代码，以保证所有用户的操作系统安全性不因本软件而受损害。
 
 ## 支持 ⭐️ Supports
 
@@ -676,17 +703,18 @@ CapsLockX 相关答疑直接进群 [@雪星](tencent://message?uin=997596439) �
    - 爱发电 ⚡️：[https://afdian.net/@snomiao](https://afdian.net/@snomiao)
    - PAYPAL: [https://paypal.me/snomiao](https://paypal.me/snomiao)
    - 支付宝捐助账号： [snomiao@gmail.com （点击查看二维码）](./支付宝捐助.png)
-   - ETH： [0xdc2eece11a9e09c8db921989e54b30375446e49e](https://etherscan.io/address0xdc2eece11a9e09c8db921989e54b30375446e49e)
+   - ETH： [0xdc2eece11a9e09c8db921989e54b30375446e49e](https://etherscan.io/address/0xdc2eece11a9e09c8db921989e54b30375446e49e)
 
-[发展路线](#发展路线-roadmap)
+- [发展路线](#发展路线-roadmap)
 
 ### 捐赠记录(截至 20210821) 📄 Donate Records
 
-| 捐赠时间   | 名称   | 渠道     | 金额        | 备注                     |
-| ---------- | ------ | -------- | ----------- | ------------------------ |
-| 2021-06-19 | \*\*煜 | Alipay QR   | +50.00 CNY  | 小小資助，支持獨立開發者 |
-| 2023-05-12 | 卡拉翁 | 微信转账 | +200.00 CNY | 🫡 (敬礼)                 |
-| ????-??-?? | [@andriasw](github.com/andriasw) | Alipay转账 | +66.66 CNY | for CapsLockX-mac, 66.66 is good (https://github.com/andriasw) |
+| 捐赠时间   | 名称                             | 渠道        | 金额        | 备注                                                           |
+| ---------- | -------------------------------- | ----------- | ----------- | -------------------------------------------------------------- |
+| 2021-06-19 | \*\*煜                           | Alipay QR   | +50.00 CNY  | 小小資助，支持獨立開發者                                       |
+| 2023-05-12 | 卡拉翁                           | 微信转账    | +200.00 CNY | 🫡 (敬礼)                                                       |
+| 2023-06-09 | [@andriasw](github.com/andriasw) | Alipay 转账 | +66.66 CNY  | for CapsLockX-mac, 66.66 is good (https://github.com/andriasw) |
+| 2023-12-19 | 慧蛋                             | QQ 红包     | +45.00 CNY  | 请开发者喝咖啡                                                 |
 
 ### 鸣谢 🙏🏻 Thanks
 
@@ -697,6 +725,13 @@ CapsLockX 相关答疑直接进群 [@雪星](tencent://message?uin=997596439) �
 
 ### 相关话题 - Related Topics
 
+- [秦金伟](http://rsytes.coding-pages.com/)
+  - [2020-02-23 当键盘模拟鼠标 - qwertc]( https://mp.weixin.qq.com/s?__biz=MzIzNzczOTkzMw==&mid=2247483745&idx=1&sn=16f16c1fa02e1ef386a83f3023fb109d&chksm=e8c54b93dfb2c285e49fa8045d2380b20810768e3be043f364be146a598faf5f363bbb2623e7&scene=21#wechat_redirect )
+  - [2020-10-26 键盘模拟鼠标2 - qwertc]( https://mp.weixin.qq.com/s?__biz=MzIzNzczOTkzMw==&mid=2247484272&idx=1&sn=0ed1ff91bee008fc5c01dc0fe20e53ba&chksm=e8c54982dfb2c09493c88a0f7847ffb0b508598e0756ddd7e8ad94d1f31f65490388d6cff7a4&scene=21#wechat_redirect )
+  - [2021-03-11 capslockX-治愈鼠标手 - qwertc](https://mp.weixin.qq.com/s?__biz=MzIzNzczOTkzMw==&mid=2247484478&idx=1&sn=1518d7ec4dc08c1a72c08fcaff98550e&chksm=e8c54eccdfb2c7daed0ad9b8c03395e4211e029199374f4bc0dbdc9a8403c2dae86b740c95c5&scene=21#wechat_redirect)
+  - 2021年11月，键盘模拟鼠标3
+  - [2022-08-21 t0820 复制后匹配-siyuan-clx-截图 - qwertc]( https://mp.weixin.qq.com/s?__biz=MzIzNzczOTkzMw==&mid=2247485441&idx=1&sn=848d5e6f3fb7c1e7b14100615ca7d0db&chksm=e8c542f3dfb2cbe5770fe19bb8b5c81935e52a4a686154e69104bc403ab6ce960d1b6ae429a9&scene=21#wechat_redirect )
+  - [2024-01-06 t0106 OpenAI加持的CapslockX - qwertc]( https://mp.weixin.qq.com/s?__biz=MzIzNzczOTkzMw==&mid=2247485707&idx=1&sn=d40eea9f0b5bb81e3387ec592def4ed0&chksm=e8c543f9dfb2caef90939e2fafcb324fd757949c79399c55adfbab0940e70efd753fb6bf3837&token=1464360155&lang=zh_CN#rd)
 - [有没有办法将 Chrome OS 中的快捷键实现到 Windows 10 中 - V2EX](https://www.v2ex.com/t/778967)
 - [推荐一下我的键位映射工具 MyKeymap - V2EX](https://v2ex.com/t/844432)
 - [有多少人会把键盘上的 CapsLock 和 Backspace 对调？ - V2EX](https://www.v2ex.com/t/855901)

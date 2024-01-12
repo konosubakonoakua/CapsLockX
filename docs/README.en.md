@@ -41,55 +41,53 @@ CapsLockX is a modular hotkey script engine based on AutoHotkey. Allows you to e
 
 ## Tutorial 📖
 
-### 简易入门教程（读完这一小节，便算是入门了 CapsLockX 的使用 ）
+### Simple Entry Tutorial (After reading this section, you would have understood how to use CapsLockX)
 
-CapsLockX 有四大核心功能： **窗口管理**，**鼠标模拟**、**方向键模拟**、应用内热键，本入门教程将带你学会前 3 大核心功能。
+CapsLockX has four core functions: **window management**, **mouse simulation**, **arrow key simulation**, and hotkeys within applications. This beginner's tutorial will teach you the first three core functions.
 
-首先获取 CapsLockX ：下载这个压缩包： [下载 JSDelivrCDN-发布程序包.zip](https://cdn.jsdelivr.net/gh/snolab/CapsLockX@gh-pages/CapsLockX-latest.zip)
+First, get CapsLockX: Download this compressed file: [Download JSDelivrCDN-Publishing Program Package.zip](https://cdn.jsdelivr.net/gh/snolab/CapsLockX@gh-pages/CapsLockX-latest.zip)
 
-解压之后，打开 CapsLockX 文件夹内的 `CapsLockX.exe`，过掉简单的新手教程，然后按照以下左右手功能区的依次试用来了解 CapsLockX 的功能。
+After decompressing, open the `CapsLockX.exe` in the CapsLockX folder, skip the simple beginner's tutorial, and then follow the hands-on trial of the left and right functional areas below to understand the functions of CapsLockX.
 
-CapsLockX 启动之后，并**不会影响**你键盘其它按键的功能，以下的功能只有在你按出 `CapsLockX + 组合键` 时才会触发。
+After CapsLockX starts, it will **not affect** the functions of other keys on your keyboard. The following features will only be triggered when you press `CapsLockX + combination key`.
 
-左手功能区：
+Left hand functional area:
 
-- 窗口管理：`CapsLockX + 1234567890` 切换到第 `n` 个虚拟桌面，`CapsLockX + ZXCV` 窗口操作（窗口切换、窗口关闭，窗口排列，透明置顶）。
-- 鼠标模拟功能：按 `CapsLockX + WASD` 鼠标移动（像玩游戏的时候操作人物移动一样简单），按 `CapsLockX + QE` 鼠标左右键点击，`CapsLockX + RF` 滚轮上下滑动。
+- Window Management: `CapsLockX + 1234567890` switches to the `n`th virtual desktop, `CapsLockX + ZXCV` for window operations (window switch, close window, arrange windows, transparent top).
+- Mouse Simulation function: Press `CapsLockX + WASD` to move the mouse (it's as simple as moving characters in a game), press `CapsLockX + QE` for left and right mouse clicks, `CapsLockX + RF` for wheel scrolling up and down.
 
-右手功能区：
+Right hand functional area:
 
-- 方向键模拟：打开任意一个编辑 `HJKL` 光标移动，`YOUI` 页面移动
+- Arrow key simulation: Open any editor `HJKL` for cursor movement, `YOUI` for page movement.
 
-上手之后，如果想了解更多功能，则可参考下方速查手册。
+After getting started, if you want to know more functions, you can refer to the quick reference manual below.
 
----
+## Advanced Reference Manual
 
-## 进阶参考手册
+### Installation and Use 🛠
 
-### 安装与使用 🛠
+#### Portable Green Software Package (Suitable for Beginners, Stable Version) 📦
 
-#### 绿色便携程序包（新手适用，稳定版） 📦
+The source code package is the software itself, which requires no compilation, purely green and portable, and is ready to use upon extraction. We recommend the first (fastest) source code + program package.
 
-源码打包就是软件本体，无需编译，纯绿色便携软件解压即用。源码 + 程序包，推荐第一个（最快）。
+1. [Download JSDelivrCDN-Published Program Package.zip](https://cdn.jsdelivr.net/gh/snolab/CapsLockX@gh-pages/CapsLockX-latest.zip)
+2. [Alternative Download CloudFlareCDN-Published Program Package.zip](https://capslockx.snomiao.com/CapsLockX-latest.zip)
+3. [Alternative Download from GitHub-Published Program Package.zip](https://github.com/snolab/CapsLockX/raw/gh-pages/CapsLockX-latest.zip)
+4. [Alternative Download GitHub-Repository Program Package.zip](https://github.com/snolab/CapsLockX/archive/master.zip)
+5. [Alternative Download BitBucket-Repository Program Package.zip](https://bitbucket.org/snomiao/capslockx/get/master.zip)
+6. [Alternative Download for Mainland China Users-Gitee-Repository Program Package.zip (Login Required)](https://gitee.com/snomiao/CapslockX/repository/archive/master.zip)
 
-1. [下载 JSDelivrCDN-发布程序包.zip](https://cdn.jsdelivr.net/gh/snolab/CapsLockX@gh-pages/CapsLockX-latest.zip)
-1. [备选下载 CloudFlareCDN-发布程序包.zip](https://capslockx.snomiao.com/CapsLockX-latest.zip)
-1. [备选下载 GitHub-发布程序包.zip](https://github.com/snolab/CapsLockX/raw/gh-pages/CapsLockX-latest.zip)
-1. [备选下载 GitHub-仓库程序包.zip](https://github.com/snolab/CapsLockX/archive/master.zip)
-1. [备选下载 BitBucket-仓库程序包.zip](https://bitbucket.org/snomiao/capslockx/get/master.zip)
-1. [备选下载 中国大陆用户-Gitee-仓库程序包.zip （需登录）](https://gitee.com/snomiao/CapslockX/repository/archive/master.zip)
+After extraction, it's ready to use. To start and set up autostart: double-click `CapsLockX.exe` to start the script. If you want to add it to startup items, enter shell:startup in the Start menu - Run, then create a shortcut for this program and drop it there.
 
-解压后使用即可，启动与自启动的方法： 双击 `CapsLockX.exe` 即可启动脚本，如需添加启动项，请在开始菜单 - 运行输入 shell:startup 然后给本程序创建快捷方式，扔进去就可以了。
+#### Command Line Installation (Recommended for Advanced Users, Supports Auto Update) 🖥️
 
-#### 命令行方式安装（进阶用户推荐，可自动更新）🖥️
+Choose any of the following, the 2nd option is recommended for users in other regions
 
-以下几种任选其一，其它地区用户推荐第 2 个
-
-1. `npx capslockx`, -- NPX 直接运行，可以一直运行最新版，推荐（需要安装 NodeJS ）
-2. `choco update capslockx && capslockx` -- [Chocolatey](https://community.chocolatey.org/packages/CapsLockX/) 安装可使用 cup 自动更新，推荐
-3. `npm i -g capslockx && npx capslockx` -- npm 全局安装
-4. `git clone https://gitee.com/snomiao/CapslockX && .\CapsLockX\CapsLockX.exe` -- 大陆源码包（绿色软件包）解压使用，中国大陆地区用户推荐
-5. `git clone https://github.com/snolab/CapsLockX && .\CapsLockX\CapsLockX.exe` -- github 源码包（绿色软件包）解压使用
+1. `npx capslockx`, -- Run directly with NPX to always have the latest version, recommended (NodeJS installation required).
+2. `choco update capslockx && capslockx` -- Install with [Chocolatey](https://community.chocolatey.org/packages/CapsLockX/) and use `cup` for auto-updates, recommended.
+3. `npm i -g capslockx && npx capslockx` -- npm global install.
+4. `git clone https://gitee.com/snomiao/CapslockX && .\CapsLockX\CapsLockX.exe` -- Mainland source code package (green software package) extracted for use, recommended for users in mainland China.
+5. `git clone https://github.com/snolab/CapsLockX && .\CapsLockX\CapsLockX.exe` -- GitHub source code package (green software package) extracted for use.
 6. `winget capslockx` -- TODO
 7. `scoop capslockx` -- TODO
 
